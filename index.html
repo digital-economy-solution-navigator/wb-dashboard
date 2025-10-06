@@ -3,389 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Balkans Dashboard - Standardized Data</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-        }
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .controls {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: #f8f9fa;
-            border-radius: 8px;
-            flex-wrap: wrap;
-        }
-        .control-group {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
-        .control-group label {
-            font-weight: bold;
-            color: #495057;
-            font-size: 14px;
-        }
-        .control-group select {
-            padding: 8px 12px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-            background-color: white;
-            min-width: 150px;
-        }
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-        .stat-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 20px;
-            border-radius: 8px;
-            text-align: center;
-        }
-        .stat-card h3 {
-            margin: 0 0 10px 0;
-            font-size: 14px;
-            opacity: 0.9;
-        }
-        .stat-card .value {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 0;
-        }
-        .category-section {
-            margin-bottom: 40px;
-        }
-        .category-section h2 {
-            color: #34495e;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #3498db;
-        }
-        .indicators-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 20px;
-        }
-        .indicator-card {
-            background: white;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        .indicator-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        }
-        .indicator-card h3 {
-            margin-top: 0;
-            color: #2c3e50;
-            font-size: 18px;
-        }
-        .indicator-card .category {
-            display: inline-block;
-            background-color: #3498db;
-            color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 12px;
-            margin-bottom: 15px;
-        }
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-        .data-table th,
-        .data-table td {
-            padding: 8px 12px;
-            text-align: left;
-            border-bottom: 1px solid #ecf0f1;
-        }
-        .data-table th {
-            background-color: #f8f9fa;
-            font-weight: bold;
-            color: #495057;
-        }
-        .data-table tr:hover {
-            background-color: #f8f9fa;
-        }
-        .loading {
-            text-align: center;
-            color: #7f8c8d;
-            font-style: italic;
-            padding: 20px;
-        }
-        .error {
-            color: #e74c3c;
-            background-color: #fdf2f2;
-            padding: 15px;
-            border-radius: 4px;
-            border-left: 4px solid #e74c3c;
-            margin: 10px 0;
-        }
-        .no-data {
-            color: #7f8c8d;
-            font-style: italic;
-            text-align: center;
-            padding: 20px;
-        }
-        .chart-container {
-            height: 200px;
-            margin-top: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f8f9fa;
-            border-radius: 4px;
-            color: #6c757d;
-        }
-    </style>
+    <title>Western Balkans Dashboard - Data Filter</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Western Balkans Dashboard</h1>
+        <h1>Western Balkans Data Filter</h1>
         
-        <!-- Controls -->
-        <div class="controls">
-            <div class="control-group">
-                <label for="categoryFilter">Category:</label>
-                <select id="categoryFilter">
-                    <option value="">All Categories</option>
-                </select>
+        <!-- Filter Panel -->
+        <div class="filter-panel">
+            <h2>Filter Data</h2>
+            
+            <div class="filter-grid">
+                <div class="filter-group">
+                    <label for="countryFilter">Country</label>
+                    <select id="countryFilter">
+                        <option value="">All Countries</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="indicatorFilter">Indicator</label>
+                    <select id="indicatorFilter">
+                        <option value="">All Indicators</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group year-range">
+                    <div class="filter-group">
+                        <label for="yearFromFilter">From Year</label>
+                        <select id="yearFromFilter">
+                            <option value="">From</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="yearToFilter">To Year</label>
+                        <select id="yearToFilter">
+                            <option value="">To</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="layerFilter">Layer</label>
+                    <select id="layerFilter">
+                        <option value="">All</option>
+                    </select>
+                </div>
             </div>
-            <div class="control-group">
-                <label for="countryFilter">Country:</label>
-                <select id="countryFilter">
-                    <option value="">All Countries</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="yearFilter">Year:</label>
-                <select id="yearFilter">
-                    <option value="">All Years</option>
-                </select>
+            
+            <div class="controls">
+                <button class="btn btn-primary" id="applyFilters">Apply Filters</button>
+                <button class="btn btn-secondary" id="clearFilters">Clear Filters</button>
             </div>
         </div>
-
-        <!-- Statistics -->
-        <div class="stats-grid">
-            <div class="stat-card">
-                <h3>Total Indicators</h3>
-                <p class="value" id="totalIndicators">-</p>
+        
+        <!-- Results Area -->
+        <div class="results-area">
+            <div class="summary" id="summary">
+                Loading data...
             </div>
-            <div class="stat-card">
-                <h3>Countries</h3>
-                <p class="value" id="totalCountries">-</p>
+            
+            <div id="preview-container">
+                <div class="loading">Loading preview...</div>
             </div>
-            <div class="stat-card">
-                <h3>Data Points</h3>
-                <p class="value" id="totalDataPoints">-</p>
-            </div>
-            <div class="stat-card">
-                <h3>Year Range</h3>
-                <p class="value" id="yearRange">-</p>
-            </div>
-        </div>
-
-        <!-- Data Display -->
-        <div id="dashboard-content" class="loading">
-            Loading dashboard data...
         </div>
     </div>
 
-    <script>
-        let consolidatedData = null;
-        let filteredData = null;
-
-        // Load consolidated dataset
-        async function loadConsolidatedData() {
-            try {
-                const response = await fetch('data/standardized_data/consolidated_dataset.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                consolidatedData = await response.json();
-                filteredData = consolidatedData;
-                
-                initializeDashboard();
-                populateFilters();
-                displayData();
-                
-            } catch (error) {
-                console.error('Error loading consolidated data:', error);
-                document.getElementById('dashboard-content').innerHTML = 
-                    `<div class="error">Error loading data: ${error.message}</div>`;
-            }
-        }
-
-        function initializeDashboard() {
-            // Update statistics
-            document.getElementById('totalIndicators').textContent = consolidatedData.metadata.total_indicators;
-            document.getElementById('totalCountries').textContent = consolidatedData.metadata.total_countries;
-            document.getElementById('totalDataPoints').textContent = consolidatedData.data_points.length;
-            document.getElementById('yearRange').textContent = 
-                `${consolidatedData.metadata.year_range.min}-${consolidatedData.metadata.year_range.max}`;
-        }
-
-        function populateFilters() {
-            // Populate category filter
-            const categoryFilter = document.getElementById('categoryFilter');
-            Object.keys(consolidatedData.metadata.categories).forEach(category => {
-                const option = document.createElement('option');
-                option.value = category;
-                option.textContent = category;
-                categoryFilter.appendChild(option);
-            });
-
-            // Populate country filter
-            const countryFilter = document.getElementById('countryFilter');
-            consolidatedData.metadata.countries.forEach(country => {
-                const option = document.createElement('option');
-                option.value = country;
-                option.textContent = country;
-                countryFilter.appendChild(option);
-            });
-
-            // Populate year filter
-            const yearFilter = document.getElementById('yearFilter');
-            const years = Array.from(new Set(consolidatedData.data_points.map(dp => dp.year))).sort();
-            years.forEach(year => {
-                const option = document.createElement('option');
-                option.value = year;
-                option.textContent = year;
-                yearFilter.appendChild(option);
-            });
-
-            // Add event listeners
-            categoryFilter.addEventListener('change', applyFilters);
-            countryFilter.addEventListener('change', applyFilters);
-            yearFilter.addEventListener('change', applyFilters);
-        }
-
-        function applyFilters() {
-            const categoryFilter = document.getElementById('categoryFilter').value;
-            const countryFilter = document.getElementById('countryFilter').value;
-            const yearFilter = document.getElementById('yearFilter').value;
-
-            filteredData = {
-                ...consolidatedData,
-                data_points: consolidatedData.data_points.filter(dp => {
-                    return (!categoryFilter || dp.category === categoryFilter) &&
-                           (!countryFilter || dp.country === countryFilter) &&
-                           (!yearFilter || dp.year == yearFilter);
-                })
-            };
-
-            displayData();
-        }
-
-        function displayData() {
-            const content = document.getElementById('dashboard-content');
-            
-            if (!filteredData || filteredData.data_points.length === 0) {
-                content.innerHTML = '<div class="no-data">No data available for the selected filters.</div>';
-                return;
-            }
-
-            // Group data by category
-            const dataByCategory = {};
-            filteredData.data_points.forEach(dp => {
-                if (!dataByCategory[dp.category]) {
-                    dataByCategory[dp.category] = {};
-                }
-                if (!dataByCategory[dp.category][dp.indicator]) {
-                    dataByCategory[dp.category][dp.indicator] = [];
-                }
-                dataByCategory[dp.category][dp.indicator].push(dp);
-            });
-
-            let html = '';
-            Object.keys(dataByCategory).forEach(category => {
-                html += `<div class="category-section">
-                    <h2>${category}</h2>
-                    <div class="indicators-grid">`;
-                
-                Object.keys(dataByCategory[category]).forEach(indicator => {
-                    const dataPoints = dataByCategory[category][indicator];
-                    html += createIndicatorCard(indicator, category, dataPoints);
-                });
-                
-                html += '</div></div>';
-            });
-
-            content.innerHTML = html;
-        }
-
-        function createIndicatorCard(indicator, category, dataPoints) {
-            // Sort data points by country and year
-            dataPoints.sort((a, b) => {
-                if (a.country !== b.country) {
-                    return a.country.localeCompare(b.country);
-                }
-                return b.year - a.year;
-            });
-
-            // Get latest values for each country
-            const latestData = {};
-            dataPoints.forEach(dp => {
-                if (!latestData[dp.country] || dp.year > latestData[dp.country].year) {
-                    latestData[dp.country] = dp;
-                }
-            });
-
-            const latestValues = Object.values(latestData);
-            const avgValue = latestValues.reduce((sum, dp) => sum + dp.value, 0) / latestValues.length;
-
-            let tableHtml = '<table class="data-table"><thead><tr><th>Country</th><th>Year</th><th>Value</th></tr></thead><tbody>';
-            
-            latestValues.forEach(dp => {
-                tableHtml += `<tr>
-                    <td>${dp.country}</td>
-                    <td>${dp.year}</td>
-                    <td>${dp.value.toLocaleString()}</td>
-                </tr>`;
-            });
-            
-            tableHtml += '</tbody></table>';
-
-            return `
-                <div class="indicator-card">
-                    <div class="category">${category}</div>
-                    <h3>${indicator}</h3>
-                    <div class="chart-container">
-                        Average: ${avgValue.toLocaleString()}<br>
-                        Countries: ${latestValues.length}
-                    </div>
-                    ${tableHtml}
-                </div>
-            `;
-        }
-
-        // Load data when page loads
-        document.addEventListener('DOMContentLoaded', loadConsolidatedData);
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
