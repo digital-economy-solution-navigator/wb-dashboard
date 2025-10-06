@@ -1,0 +1,56 @@
+[
+  {
+    "Economy": "Albania",
+    "Code": "ALB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 23.886990378981068,
+    "20152022": 23.886990378981068,
+    "Last_available_year": 2022
+  },
+  {
+    "Economy": "Bosnia and Herzegovina",
+    "Code": "BIH",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": "..",
+    "20152022": 21.39599419726378,
+    "Last_available_year": 2021
+  },
+  {
+    "Economy": "North Macedonia",
+    "Code": "MKD",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": "..",
+    "20152022": 23.45544117250839,
+    "Last_available_year": 2021
+  },
+  {
+    "Economy": "Montenegro",
+    "Code": "MNE",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 21.51396231409155,
+    "20152022": 21.51396231409155,
+    "Last_available_year": 2022
+  },
+  {
+    "Economy": "Serbia",
+    "Code": "SRB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 24.15525313720249,
+    "20152022": 24.15525313720249,
+    "Last_available_year": 2022
+  },
+  {
+    "Economy": "Kosovo",
+    "Code": "XKX",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 32.35767375690969,
+    "20152022": 32.35767375690969,
+    "Last_available_year": 2022
+  }
+]

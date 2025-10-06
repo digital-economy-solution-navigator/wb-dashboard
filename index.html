@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Balkans Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .data-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #fafafa;
+        }
+        .data-section h2 {
+            color: #34495e;
+            margin-top: 0;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .data-card {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #3498db;
+        }
+        .data-card h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .data-item {
+            margin: 8px 0;
+            padding: 5px 0;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        .data-item:last-child {
+            border-bottom: none;
+        }
+        .label {
+            font-weight: bold;
+            color: #7f8c8d;
+        }
+        .value {
+            color: #2c3e50;
+        }
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .error {
+            color: #e74c3c;
+            background-color: #fdf2f2;
+            padding: 10px;
+            border-radius: 4px;
+            border-left: 4px solid #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Western Balkans Dashboard</h1>
+        
+        <div class="data-section">
+            <h2>Dashboard Overview</h2>
+            <div id="dashboard-data" class="loading">Loading dashboard data...</div>
+        </div>
+
+        <div class="data-section">
+            <h2>Economic Indicators</h2>
+            <div class="data-grid">
+                <div class="data-card">
+                    <h3>Per Capita Electricity</h3>
+                    <div id="electricity-data" class="loading">Loading...</div>
+                </div>
+                <div class="data-card">
+                    <h3>STEM Graduates</h3>
+                    <div id="stem-data" class="loading">Loading...</div>
+                </div>
+                <div class="data-card">
+                    <h3>Research & Development</h3>
+                    <div id="research-data" class="loading">Loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="data-section">
+            <h2>Infrastructure & Technology</h2>
+            <div class="data-grid">
+                <div class="data-card">
+                    <h3>Broadband Subscriptions</h3>
+                    <div id="broadband-data" class="loading">Loading...</div>
+                </div>
+                <div class="data-card">
+                    <h3>Download Speed</h3>
+                    <div id="speed-data" class="loading">Loading...</div>
+                </div>
+                <div class="data-card">
+                    <h3>Electric Outages</h3>
+                    <div id="outages-data" class="loading">Loading...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to load and display JSON data
+        async function loadData(filename, containerId, maxItems = 5) {
+            try {
+                const response = await fetch(`data/json_output/${filename}`);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                const container = document.getElementById(containerId);
+                container.innerHTML = '';
+                
+                if (Array.isArray(data) && data.length > 0) {
+                    const itemsToShow = data.slice(0, maxItems);
+                    
+                    itemsToShow.forEach((item, index) => {
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = 'data-item';
+                        
+                        // Display key-value pairs, filtering out null/undefined values
+                        const entries = Object.entries(item).filter(([key, value]) => 
+                            value !== null && value !== undefined && value !== '' && 
+                            !key.startsWith('Unnamed_') && key !== 'NaN'
+                        );
+                        
+                        if (entries.length > 0) {
+                            entries.slice(0, 4).forEach(([key, value]) => {
+                                const label = key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                                itemDiv.innerHTML += `
+                                    <div><span class="label">${label}:</span> <span class="value">${value}</span></div>
+                                `;
+                            });
+                            
+                            if (entries.length > 4) {
+                                itemDiv.innerHTML += `<div><span class="label">...</span> <span class="value">${entries.length - 4} more fields</span></div>`;
+                            }
+                        } else {
+                            itemDiv.innerHTML = '<div><span class="value">No data available</span></div>';
+                        }
+                        
+                        container.appendChild(itemDiv);
+                    });
+                    
+                    if (data.length > maxItems) {
+                        const moreDiv = document.createElement('div');
+                        moreDiv.className = 'data-item';
+                        moreDiv.innerHTML = `<div><span class="label">Total Records:</span> <span class="value">${data.length}</span></div>`;
+                        container.appendChild(moreDiv);
+                    }
+                } else {
+                    container.innerHTML = '<div class="error">No data available</div>';
+                }
+            } catch (error) {
+                console.error(`Error loading ${filename}:`, error);
+                document.getElementById(containerId).innerHTML = `<div class="error">Error loading data: ${error.message}</div>`;
+            }
+        }
+
+        // Load all data when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load dashboard overview
+            loadData('Dashboard_Western_Balkans.json', 'dashboard-data', 3);
+            
+            // Load economic indicators
+            loadData('1_per_capita_electricity.json', 'electricity-data', 3);
+            loadData('10_STEM_graduates.json', 'stem-data', 3);
+            loadData('11_research_effort__GERD.json', 'research-data', 3);
+            
+            // Load infrastructure data
+            loadData('3_fixed_broadband_subscriptions.json', 'broadband-data', 3);
+            loadData('4_Mean_download_speed.json', 'speed-data', 3);
+            loadData('2_firms_electric_outages.json', 'outages-data', 3);
+        });
+    </script>
+</body>
+</html>

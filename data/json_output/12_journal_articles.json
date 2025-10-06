@@ -1,0 +1,38 @@
+[
+  {
+    "Country_Name": "Albania",
+    "NaN": 58.903768311844644,
+    "20152020": 58.903768311844644,
+    "Last_available_year": 2020
+  },
+  {
+    "Country_Name": "Bosnia and Herzegovina",
+    "NaN": 281.0113406824419,
+    "20152020": 281.0113406824419,
+    "Last_available_year": 2020
+  },
+  {
+    "Country_Name": "Kosovo",
+    "NaN": 147.05611259051702,
+    "20152020": 147.05611259051702,
+    "Last_available_year": 2020
+  },
+  {
+    "Country_Name": "Montenegro",
+    "NaN": 497.8545193511731,
+    "20152020": 497.8545193511731,
+    "Last_available_year": 2020
+  },
+  {
+    "Country_Name": "North Macedonia",
+    "NaN": 206.19233198441904,
+    "20152020": 206.19233198441904,
+    "Last_available_year": 2020
+  },
+  {
+    "Country_Name": "Serbia",
+    "NaN": 687.237774755817,
+    "20152020": 687.237774755817,
+    "Last_available_year": 2020
+  }
+]

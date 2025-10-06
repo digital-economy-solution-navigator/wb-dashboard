@@ -1,0 +1,74 @@
+[
+  {
+    "Economy": "Albania",
+    "Code": "ALB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 11.47,
+    "20221": 11.47,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "Bosnia and Herzegovina",
+    "Code": "BIH",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 8.16,
+    "20221": 8.16,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "North Macedonia",
+    "Code": "MKD",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 21.59,
+    "20221": 21.59,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "Montenegro",
+    "Code": "MNE",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 38.65,
+    "20221": 38.65,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "Serbia",
+    "Code": "SRB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 51.84,
+    "20221": 51.84,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "Kosovo",
+    "Code": "XKX",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 38.64,
+    "20221": 38.64,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20221": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": "AVERAGE GLOBAL SPEED",
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": 35.97543378995435,
+    "20221": null,
+    "Last_available_year": null
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "Economy": "Albania",
+    "Code": "ALB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": null,
+    "20152022": 3138.6726,
+    "Last_available_year": 2021.0
+  },
+  {
+    "Economy": "Bosnia and Herzegovina",
+    "Code": "BIH",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 5118.245,
+    "20152022": 5118.245,
+    "Last_available_year": 2022.0
+  },
+  {
+    "Economy": "North Macedonia",
+    "Code": "MKD",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 2732.1282,
+    "20152022": 2732.1282,
+    "Last_available_year": 2022.0
+  },
+  {
+    "Economy": "Montenegro",
+    "Code": "MNE",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 5278.4165,
+    "20152022": 5278.4165,
+    "Last_available_year": 2022.0
+  },
+  {
+    "Economy": "Serbia",
+    "Code": "SRB",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 4881.3486,
+    "20152022": 4881.3486,
+    "Last_available_year": 2022.0
+  },
+  {
+    "Economy": "Kosovo",
+    "Code": "XKX",
+    "Region": "Western Balkans",
+    "Income_group": "Upper middle income",
+    "NaN": 4163.35,
+    "20152022": 4163.35,
+    "Last_available_year": 2022.0
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": null,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2015.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2016.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2017.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2018.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2019.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2020.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2021.0,
+    "Last_available_year": null
+  },
+  {
+    "Economy": null,
+    "Code": null,
+    "Region": null,
+    "Income_group": null,
+    "NaN": null,
+    "20152022": 2022.0,
+    "Last_available_year": null
+  }
+]
