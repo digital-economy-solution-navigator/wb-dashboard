@@ -1,0 +1,65 @@
+{
+  "indicator": "Patents In Force",
+  "category": "Innovation & Research",
+  "filename": "13_Patents_in_force.json",
+  "data_points": [
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 496.92385996794707,
+      "indicator": "Patents In Force",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 122.5795309264124,
+      "indicator": "Patents In Force",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 497.60814366195376,
+      "indicator": "Patents In Force",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 317.03591527455524,
+      "indicator": "Patents In Force",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 1212.9621564338695,
+      "indicator": "Patents In Force",
+      "category": "Innovation & Research"
+    }
+  ],
+  "metadata": {
+    "total_records": 5,
+    "countries": [],
+    "years": [
+      2015
+    ],
+    "has_country_data": false
+  }
+}

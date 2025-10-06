@@ -1,0 +1,60 @@
+{
+  "indicator": "Fixed Broadband Subscriptions",
+  "category": "Infrastructure",
+  "filename": "3_fixed_broadband_subscriptions.json",
+  "data_points": [
+    {
+      "country": "Albania",
+      "country_code": "ALB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 20.48009356,
+      "indicator": "Fixed Broadband Subscriptions",
+      "category": "Infrastructure"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "country_code": "BIH",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 27.07635566,
+      "indicator": "Fixed Broadband Subscriptions",
+      "category": "Infrastructure"
+    },
+    {
+      "country": "North Macedonia",
+      "country_code": "MKD",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 24.19175028,
+      "indicator": "Fixed Broadband Subscriptions",
+      "category": "Infrastructure"
+    },
+    {
+      "country": "Montenegro",
+      "country_code": "MNE",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 31.25986713,
+      "indicator": "Fixed Broadband Subscriptions",
+      "category": "Infrastructure"
+    }
+  ],
+  "metadata": {
+    "total_records": 5,
+    "countries": [
+      "North Macedonia",
+      "Montenegro",
+      "Bosnia and Herzegovina",
+      "Albania"
+    ],
+    "years": [
+      2015
+    ],
+    "has_country_data": true
+  }
+}

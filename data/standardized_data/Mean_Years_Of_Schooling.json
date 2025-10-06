@@ -1,0 +1,71 @@
+{
+  "indicator": "Mean Years Of Schooling",
+  "category": "Education",
+  "filename": "6_Mean_years_of_schooling.json",
+  "data_points": [
+    {
+      "country": "Albania",
+      "country_code": "ALB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 9.9767,
+      "indicator": "Mean Years Of Schooling",
+      "category": "Education"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "country_code": "BIH",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 10.96928,
+      "indicator": "Mean Years Of Schooling",
+      "category": "Education"
+    },
+    {
+      "country": "North Macedonia",
+      "country_code": "MKD",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 10.22815,
+      "indicator": "Mean Years Of Schooling",
+      "category": "Education"
+    },
+    {
+      "country": "Montenegro",
+      "country_code": "MNE",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 12.31016,
+      "indicator": "Mean Years Of Schooling",
+      "category": "Education"
+    },
+    {
+      "country": "Serbia",
+      "country_code": "SRB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 11.36987,
+      "indicator": "Mean Years Of Schooling",
+      "category": "Education"
+    }
+  ],
+  "metadata": {
+    "total_records": 6,
+    "countries": [
+      "North Macedonia",
+      "Serbia",
+      "Montenegro",
+      "Bosnia and Herzegovina",
+      "Albania"
+    ],
+    "years": [
+      2015
+    ],
+    "has_country_data": true
+  }
+}

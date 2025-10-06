@@ -1,0 +1,82 @@
+{
+  "indicator": "Iso 9001 Per 1000 People",
+  "category": "Trade & Standards",
+  "filename": "7_ISO_9001_per_1000_people.json",
+  "data_points": [
+    {
+      "country": "Albania",
+      "country_code": "ALB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.16272520069741428,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "country_code": "BIH",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.2965802656295326,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "North Macedonia",
+      "country_code": "MKD",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.2536838836378269,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Montenegro",
+      "country_code": "MNE",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.2592297958727376,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Serbia",
+      "country_code": "SRB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.5313267458420043,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Kosovo",
+      "country_code": "XKX",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 0.0,
+      "indicator": "Iso 9001 Per 1000 People",
+      "category": "Trade & Standards"
+    }
+  ],
+  "metadata": {
+    "total_records": 6,
+    "countries": [
+      "North Macedonia",
+      "Kosovo",
+      "Serbia",
+      "Montenegro",
+      "Bosnia and Herzegovina",
+      "Albania"
+    ],
+    "years": [
+      2015
+    ],
+    "has_country_data": true
+  }
+}

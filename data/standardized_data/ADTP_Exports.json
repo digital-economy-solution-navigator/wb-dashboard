@@ -1,0 +1,65 @@
+{
+  "indicator": "ADTP Exports",
+  "category": "Trade & Standards",
+  "filename": "17_ADTP_exports.json",
+  "data_points": [
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 1.450985952562152e-05,
+      "indicator": "ADTP Exports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.0013576059777858555,
+      "indicator": "ADTP Exports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.0031911895183183298,
+      "indicator": "ADTP Exports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.001361862796105616,
+      "indicator": "ADTP Exports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.00758543098834501,
+      "indicator": "ADTP Exports",
+      "category": "Trade & Standards"
+    }
+  ],
+  "metadata": {
+    "total_records": 5,
+    "countries": [],
+    "years": [
+      2017
+    ],
+    "has_country_data": false
+  }
+}

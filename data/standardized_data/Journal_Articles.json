@@ -1,0 +1,75 @@
+{
+  "indicator": "Journal Articles",
+  "category": "Innovation & Research",
+  "filename": "12_journal_articles.json",
+  "data_points": [
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 58.903768311844644,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 281.0113406824419,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 147.05611259051702,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 497.8545193511731,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 206.19233198441904,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2015,
+      "value": 687.237774755817,
+      "indicator": "Journal Articles",
+      "category": "Innovation & Research"
+    }
+  ],
+  "metadata": {
+    "total_records": 6,
+    "countries": [],
+    "years": [
+      2015
+    ],
+    "has_country_data": false
+  }
+}

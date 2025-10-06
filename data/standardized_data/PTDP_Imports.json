@@ -1,0 +1,65 @@
+{
+  "indicator": "PTDP Imports",
+  "category": "Trade & Standards",
+  "filename": "15_PTDP_imports.json",
+  "data_points": [
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.0035955623167311978,
+      "indicator": "PTDP Imports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.0769485235482687,
+      "indicator": "PTDP Imports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.14528579417767856,
+      "indicator": "PTDP Imports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.0657812544565712,
+      "indicator": "PTDP Imports",
+      "category": "Trade & Standards"
+    },
+    {
+      "country": "Unknown",
+      "country_code": "",
+      "region": "Unknown",
+      "income_group": "Unknown",
+      "year": 2017,
+      "value": 0.10573048912848851,
+      "indicator": "PTDP Imports",
+      "category": "Trade & Standards"
+    }
+  ],
+  "metadata": {
+    "total_records": 5,
+    "countries": [],
+    "years": [
+      2017
+    ],
+    "has_country_data": false
+  }
+}

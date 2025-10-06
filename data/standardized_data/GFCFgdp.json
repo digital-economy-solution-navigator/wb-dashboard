@@ -1,0 +1,82 @@
+{
+  "indicator": "GFCFgdp",
+  "category": "Economic",
+  "filename": "5_GFCFGDP.json",
+  "data_points": [
+    {
+      "country": "Albania",
+      "country_code": "ALB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 23.886990378981068,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "country_code": "BIH",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 21.39599419726378,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    },
+    {
+      "country": "North Macedonia",
+      "country_code": "MKD",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 23.45544117250839,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    },
+    {
+      "country": "Montenegro",
+      "country_code": "MNE",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 21.51396231409155,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    },
+    {
+      "country": "Serbia",
+      "country_code": "SRB",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 24.15525313720249,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    },
+    {
+      "country": "Kosovo",
+      "country_code": "XKX",
+      "region": "Western Balkans",
+      "income_group": "Upper middle income",
+      "year": 2015,
+      "value": 32.35767375690969,
+      "indicator": "GFCFgdp",
+      "category": "Economic"
+    }
+  ],
+  "metadata": {
+    "total_records": 6,
+    "countries": [
+      "North Macedonia",
+      "Kosovo",
+      "Serbia",
+      "Montenegro",
+      "Bosnia and Herzegovina",
+      "Albania"
+    ],
+    "years": [
+      2015
+    ],
+    "has_country_data": true
+  }
+}
