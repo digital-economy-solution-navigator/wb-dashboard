@@ -5,7 +5,7 @@ let filteredData = [];
 // Initialize dashboard
 async function initDashboard() {
     try {
-        const response = await fetch('data/standardized_data/consolidated_dataset.json');
+                const response = await fetch('data/transformed_data_v2/consolidated_dataset.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -21,7 +21,21 @@ async function initDashboard() {
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('summary').innerHTML = 
-            `<div class="error">Error loading data: ${error.message}</div>`;
+            `<div class="error">
+                <h3>⚠️ Data Loading Error</h3>
+                <p><strong>Error:</strong> ${error.message}</p>
+                <p><strong>Possible solutions:</strong></p>
+                <ul>
+                    <li>Run the data transformation script: <code>cd data && python transform_data_v2.py</code></li>
+                    <li>Or use the simple version: <code>cd data && python simple_transform.py</code></li>
+                    <li>Check that data.xlsx exists in the data/ directory</li>
+                    <li>Verify the transformation completed successfully</li>
+                </ul>
+                <p><em>Check the browser console for more details.</em></p>
+            </div>`;
+        
+        // Show empty filters
+        populateEmptyFilters();
     }
 }
 
@@ -47,8 +61,8 @@ function populateFilters() {
         indicatorSelect.appendChild(option);
     });
     
-    // Populate year range (2015-2022)
-    const years = [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022];
+    // Populate year range dynamically from data
+    const years = [...new Set(allIndicatorsData.map(d => d.year))].filter(y => y).sort();
     const yearFromSelect = document.getElementById('yearFromFilter');
     const yearToSelect = document.getElementById('yearToFilter');
     
@@ -64,9 +78,35 @@ function populateFilters() {
         yearToSelect.appendChild(toOption);
     });
     
-    // Set default year range
-    yearFromSelect.value = '2015';
-    yearToSelect.value = '2022';
+    // Set default year range to full range
+    if (years.length > 0) {
+        yearFromSelect.value = years[0];
+        yearToSelect.value = years[years.length - 1];
+    }
+    
+    // Populate layer filter
+    const layers = [...new Set(allIndicatorsData.map(d => d.layer))].filter(l => l && l !== 'Unknown').sort();
+    const layerSelect = document.getElementById('layerFilter');
+    layers.forEach(layer => {
+        const option = document.createElement('option');
+        option.value = layer;
+        option.textContent = layer;
+        layerSelect.appendChild(option);
+    });
+}
+
+// Populate empty filters when data is not available
+function populateEmptyFilters() {
+    // Clear existing options
+    document.getElementById('countryFilter').innerHTML = '<option value="">All Countries</option>';
+    document.getElementById('indicatorFilter').innerHTML = '<option value="">All Indicators</option>';
+    document.getElementById('yearFromFilter').innerHTML = '<option value="">From</option>';
+    document.getElementById('yearToFilter').innerHTML = '<option value="">To</option>';
+    document.getElementById('layerFilter').innerHTML = '<option value="">All</option>';
+    
+    // Show message in preview
+    document.getElementById('preview-container').innerHTML = 
+        '<div class="no-data">No data available. Please run the data transformation script first.</div>';
 }
 
 // Get current filter values
@@ -143,9 +183,11 @@ function applyFilters(data = allIndicatorsData, filters = getFilters()) {
     );
     console.log(`Value filter (removing null/NaN): ${beforeCount} -> ${filtered.length}`);
     
-    // Layer filter (placeholder for future)
+    // Filter by layer
     if (filters.layer && filters.layer !== 'All') {
-        // Future: implement layer filtering
+        const beforeCount = filtered.length;
+        filtered = filtered.filter(d => d.layer === filters.layer);
+        console.log(`Layer filter (${filters.layer}): ${beforeCount} -> ${filtered.length}`);
     }
     
     filteredData = filtered;
@@ -156,7 +198,7 @@ function applyFilters(data = allIndicatorsData, filters = getFilters()) {
 // Render results
 function renderResults() {
     renderSummary(filteredData.length);
-    renderPreview(filteredData.slice(0, 10));
+    renderPreview(filteredData);
 }
 
 // Render summary
@@ -183,6 +225,8 @@ function renderPreview(rows) {
                     <th>Year</th>
                     <th>Value</th>
                     <th>Category</th>
+                    <th>Layer</th>
+                    <th>Unit</th>
                 </tr>
             </thead>
             <tbody>
@@ -196,6 +240,8 @@ function renderPreview(rows) {
                 <td>${row.year}</td>
                 <td>${row.value.toLocaleString()}</td>
                 <td>${row.category}</td>
+                <td>${row.layer || 'Unknown'}</td>
+                <td>${row.unit || 'Unknown'}</td>
             </tr>
         `;
     });
@@ -231,8 +277,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('clearFilters').addEventListener('click', function() {
         document.getElementById('countryFilter').value = '';
         document.getElementById('indicatorFilter').value = '';
-        document.getElementById('yearFromFilter').value = '2015';
-        document.getElementById('yearToFilter').value = '2022';
+        // Reset to full year range
+        const years = [...new Set(allIndicatorsData.map(d => d.year))].filter(y => y).sort();
+        if (years.length > 0) {
+            document.getElementById('yearFromFilter').value = years[0];
+            document.getElementById('yearToFilter').value = years[years.length - 1];
+        }
         document.getElementById('layerFilter').value = '';
         applyFilters();
     });

@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Western Balkans Dashboard - Data Filter</title>
+    <title>Western Balkans Development Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
 </head>
 <body>
     <div class="container">
-        <h1>Western Balkans Data Filter</h1>
-        
+        <!-- Header Section -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <h1>🌍 Western Balkans Development Dashboard</h1>
+                <p class="subtitle">Comprehensive Analysis of Foundational & Digital Capabilities</p>
+                <div class="framework-badge">
+                    <span class="badge foundational">🧩 Foundational Capabilities (14)</span>
+                    <span class="badge digital">💻 Digital Capabilities (3)</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-tab="dashboard">📊 Dashboard</button>
+            <button class="nav-tab" data-tab="framework">🏗️ Framework</button>
+            <button class="nav-tab" data-tab="about">ℹ️ About</button>
+        </nav>
+
+        <!-- Dashboard Tab -->
+        <div class="tab-content active" id="dashboard-tab">
         <!-- Filter Panel -->
         <div class="filter-panel">
-            <h2>Filter Data</h2>
+                <h2>🔍 Filter Data</h2>
+                <p class="filter-description">Explore development indicators across the Western Balkans region</p>
             
             <div class="filter-grid">
                 <div class="filter-group">
-                    <label for="countryFilter">Country</label>
+                        <label for="countryFilter">🌍 Country</label>
                     <select id="countryFilter">
                         <option value="">All Countries</option>
                     </select>
                 </div>
                 
                 <div class="filter-group">
-                    <label for="indicatorFilter">Indicator</label>
+                        <label for="indicatorFilter">📊 Indicator</label>
                     <select id="indicatorFilter">
                         <option value="">All Indicators</option>
                     </select>
@@ -31,13 +52,13 @@
                 
                 <div class="filter-group year-range">
                     <div class="filter-group">
-                        <label for="yearFromFilter">From Year</label>
+                            <label for="yearFromFilter">📅 From Year</label>
                         <select id="yearFromFilter">
                             <option value="">From</option>
                         </select>
                     </div>
                     <div class="filter-group">
-                        <label for="yearToFilter">To Year</label>
+                            <label for="yearToFilter">📅 To Year</label>
                         <select id="yearToFilter">
                             <option value="">To</option>
                         </select>
@@ -45,31 +66,329 @@
                 </div>
                 
                 <div class="filter-group">
-                    <label for="layerFilter">Layer</label>
+                        <label for="layerFilter">🏗️ Capability Layer</label>
                     <select id="layerFilter">
-                        <option value="">All</option>
+                            <option value="">All Layers</option>
                     </select>
                 </div>
             </div>
             
             <div class="controls">
-                <button class="btn btn-primary" id="applyFilters">Apply Filters</button>
-                <button class="btn btn-secondary" id="clearFilters">Clear Filters</button>
-            </div>
+                    <button class="btn btn-primary" id="applyFilters">
+                        <span class="btn-icon">🔍</span> Apply Filters
+                    </button>
+                    <button class="btn btn-secondary" id="clearFilters">
+                        <span class="btn-icon">🔄</span> Clear Filters
+                    </button>
+                </div>
         </div>
         
         <!-- Results Area -->
         <div class="results-area">
             <div class="summary" id="summary">
-                Loading data...
+                    <div class="loading-spinner"></div>
+                    <span>Loading data...</span>
             </div>
             
             <div id="preview-container">
-                <div class="loading">Loading preview...</div>
+                    <div class="loading">
+                        <div class="loading-spinner"></div>
+                        <span>Loading preview...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Framework Tab -->
+        <div class="tab-content" id="framework-tab">
+            <div class="framework-content">
+                <h2>🏗️ Development Capabilities Framework</h2>
+                <p class="framework-intro">This dashboard analyzes development indicators across two main capability dimensions with 17 specific indicators.</p>
+                
+                <div class="framework-sections">
+                    <!-- Foundational Capabilities -->
+                    <div class="framework-section foundational">
+                        <h3>🧩 Foundational Capabilities (14 indicators)</h3>
+                        <p>Core infrastructure and capabilities that form the foundation for development</p>
+                        
+                        <div class="capability-groups">
+                            <div class="capability-group">
+                                <h4>⚡ Enabling Infrastructure</h4>
+                                <div class="indicator-list">
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">1</span>
+                                        <div class="indicator-details">
+                                            <strong>Energy availability</strong>
+                                            <span>Electricity consumption per capita</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">2</span>
+                                        <div class="indicator-details">
+                                            <strong>Energy reliability</strong>
+                                            <span>Percentage of firms experiencing electrical outages</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">3</span>
+                                        <div class="indicator-details">
+                                            <strong>Access to digital connectivity</strong>
+                                            <span>Fixed broadband subscriptions per 100 people</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">4</span>
+                                        <div class="indicator-details">
+                                            <strong>Quality of connectivity</strong>
+                                            <span>Mean download speed (Mbps)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="capability-group">
+                                <h4>🏭 Production Capabilities</h4>
+                                <div class="indicator-list">
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">5</span>
+                                        <div class="indicator-details">
+                                            <strong>Productive investments</strong>
+                                            <span>Gross Fixed Capital Formation (GFCF, % of GDP)</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">6</span>
+                                        <div class="indicator-details">
+                                            <strong>Productive skills</strong>
+                                            <span>Mean years of schooling</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">7</span>
+                                        <div class="indicator-details">
+                                            <strong>Operational efficiency</strong>
+                                            <span>ISO 9001 certificates</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">8</span>
+                                        <div class="indicator-details">
+                                            <strong>Technology absorption</strong>
+                                            <span>Intellectual Property Right payments (royalties, % of GDP)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="capability-group">
+                                <h4>🔬 Innovation Capabilities</h4>
+                                <div class="indicator-list">
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">9</span>
+                                        <div class="indicator-details">
+                                            <strong>Advanced skills</strong>
+                                            <span>Gross enrolment ratio in tertiary education</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">10</span>
+                                        <div class="indicator-details">
+                                            <strong>Specialized skills</strong>
+                                            <span>Percentage of graduates from STEM programmes in tertiary education</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">11</span>
+                                        <div class="indicator-details">
+                                            <strong>Research effort</strong>
+                                            <span>Gross Expenditure in R&D (% of GDP)</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">12</span>
+                                        <div class="indicator-details">
+                                            <strong>Research output</strong>
+                                            <span>Scientific and technical journal articles per million people</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">13</span>
+                                        <div class="indicator-details">
+                                            <strong>Innovation output (patents)</strong>
+                                            <span>Total patents in force per 100 billion USD GDP</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">14</span>
+                                        <div class="indicator-details">
+                                            <strong>Innovation output (royalties)</strong>
+                                            <span>Intellectual Property Right receipts (royalties, % of GDP)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Digital Capabilities -->
+                    <div class="framework-section digital">
+                        <h3>💻 Digital Capabilities (3 indicators)</h3>
+                        <p>Advanced capabilities for digital transformation and competitiveness</p>
+                        
+                        <div class="capability-groups">
+                            <div class="capability-group">
+                                <h4>📥 Absorption & Exposure</h4>
+                                <div class="indicator-list">
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">15</span>
+                                        <div class="indicator-details">
+                                            <strong>Absorption and exposure to production technologies with digital potential</strong>
+                                            <span>Imports of production technologies (% of GDP)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="capability-group">
+                                <h4>🚀 Deployment & Adaptation</h4>
+                                <div class="indicator-list">
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">16</span>
+                                        <div class="indicator-details">
+                                            <strong>Deployment and adaptation of digital production technologies</strong>
+                                            <span>Imports of digital products (% of GDP)</span>
+                                        </div>
+                                    </div>
+                                    <div class="indicator-item">
+                                        <span class="indicator-number">17</span>
+                                        <div class="indicator-details">
+                                            <strong>Industrial competitiveness in digital technologies</strong>
+                                            <span>Exports of digital products (% of GDP)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Tab -->
+        <div class="tab-content" id="about-tab">
+            <div class="about-content">
+                <h2>ℹ️ About This Dashboard</h2>
+                
+                <div class="about-sections">
+                    <div class="about-section">
+                        <h3>🎯 Purpose</h3>
+                        <p>This dashboard provides comprehensive analysis of development indicators across the Western Balkans region, focusing on foundational and digital capabilities that drive economic growth and competitiveness.</p>
+                    </div>
+                    
+                    <div class="about-section">
+                        <h3>📊 Data Sources</h3>
+                        <p>The dashboard processes data from Excel files containing development indicators across multiple dimensions. Data is automatically transformed and categorized according to the comprehensive 17-indicator framework.</p>
+                    </div>
+                    
+                    <div class="about-section">
+                        <h3>🔧 Technical Features</h3>
+                        <ul>
+                            <li><strong>Dynamic Filtering:</strong> Filter by country, indicator, year range, and capability layer</li>
+                            <li><strong>Real-time Updates:</strong> Data updates automatically when filters change</li>
+                            <li><strong>Comprehensive Framework:</strong> Built around the 17-indicator development framework</li>
+                            <li><strong>Responsive Design:</strong> Works on desktop, tablet, and mobile devices</li>
+                            <li><strong>Data Export:</strong> View and analyze filtered data in tabular format</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="about-section">
+                        <h3>🛠️ Setup Instructions</h3>
+                        <div class="setup-steps">
+                            <div class="setup-step">
+                                <span class="step-number">1</span>
+                                <div class="step-content">
+                                    <strong>Prepare Data</strong>
+                                    <p>Place your Excel data file as <code>data/data.xlsx</code></p>
+                                </div>
+                            </div>
+                            <div class="setup-step">
+                                <span class="step-number">2</span>
+                                <div class="step-content">
+                                    <strong>Transform Data</strong>
+                                    <p>Run: <code>cd data && python transform_data_v2.py</code></p>
+                                </div>
+                            </div>
+                            <div class="setup-step">
+                                <span class="step-number">3</span>
+                                <div class="step-content">
+                                    <strong>Open Dashboard</strong>
+                                    <p>Open <code>index.html</code> in your web browser</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-section">
+                        <h3>📁 Project Structure</h3>
+                        <div class="file-structure">
+                            <div class="file-item">
+                                <span class="file-icon">📄</span>
+                                <span class="file-name">index.html</span>
+                                <span class="file-desc">Main dashboard interface</span>
+                            </div>
+                            <div class="file-item">
+                                <span class="file-icon">⚙️</span>
+                                <span class="file-name">script.js</span>
+                                <span class="file-desc">Dashboard functionality and data processing</span>
+                            </div>
+                            <div class="file-item">
+                                <span class="file-icon">🎨</span>
+                                <span class="file-name">styles.css</span>
+                                <span class="file-desc">Dashboard styling and responsive design</span>
+                            </div>
+                            <div class="file-item">
+                                <span class="file-icon">📊</span>
+                                <span class="file-name">data/data.xlsx</span>
+                                <span class="file-desc">Source Excel data file</span>
+                            </div>
+                            <div class="file-item">
+                                <span class="file-icon">🔄</span>
+                                <span class="file-name">data/transform_data_v2.py</span>
+                                <span class="file-desc">Data transformation script</span>
+                            </div>
+                            <div class="file-item">
+                                <span class="file-icon">📋</span>
+                                <span class="file-name">README.md</span>
+                                <span class="file-desc">Project documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // Tab navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.nav-tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    const targetTab = this.getAttribute('data-tab');
+                    
+                    // Remove active class from all tabs and contents
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tabContents.forEach(tc => tc.classList.remove('active'));
+                    
+                    // Add active class to clicked tab and corresponding content
+                    this.classList.add('active');
+                    document.getElementById(targetTab + '-tab').classList.add('active');
+                });
+            });
+        });
+    </script>
 </body>
 </html>

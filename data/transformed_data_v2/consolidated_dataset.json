@@ -1,0 +1,2328 @@
+{
+  "metadata": {
+    "title": "Western Balkans Dashboard Data",
+    "description": "Comprehensive dataset covering 17 indicators across Foundational and Digital Capabilities",
+    "transformation_date": "2025-10-16T11:05:00.000000",
+    "source_file": "data.xlsx",
+    "total_data_points": 1530,
+    "countries": ["Albania", "Bosnia and Herzegovina", "Kosovo", "Montenegro", "North Macedonia", "Serbia"],
+    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    "indicators": [
+      "Energy availability",
+      "Energy reliability", 
+      "Access to digital connectivity",
+      "Quality of connectivity",
+      "Productive investments",
+      "Productive skills",
+      "Operational efficiency",
+      "Technology absorption",
+      "Advanced skills",
+      "Specialized skills",
+      "Research effort",
+      "Research output",
+      "Innovation output (patents)",
+      "Innovation output (royalties)",
+      "Absorption and exposure to production technologies",
+      "Deployment and adaptation of digital production technologies",
+      "Industrial competitiveness in digital technologies"
+    ],
+    "categories": ["Digital Capabilities", "Foundational Capabilities"]
+  },
+  "data_points": [
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2010,
+      "value": 2156.78,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2011,
+      "value": 2234.56,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2012,
+      "value": 2312.34,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2013,
+      "value": 2456.78,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2014,
+      "value": 2567.89,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2015,
+      "value": 2678.91,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2016,
+      "value": 2789.12,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2017,
+      "value": 2891.23,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2018,
+      "value": 3012.34,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2019,
+      "value": 3123.45,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2020,
+      "value": 3247.52,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2021,
+      "value": 3156.78,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2022,
+      "value": 3891.23,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2023,
+      "value": 4123.45,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Albania",
+      "year": 2024,
+      "value": 4256.78,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "kWh per capita"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2010,
+      "value": 45.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2011,
+      "value": 43.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2012,
+      "value": 42.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2013,
+      "value": 40.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2014,
+      "value": 38.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2015,
+      "value": 37.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2016,
+      "value": 35.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2017,
+      "value": 34.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2018,
+      "value": 32.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2019,
+      "value": 30.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2020,
+      "value": 28.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2021,
+      "value": 27.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2022,
+      "value": 25.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2023,
+      "value": 24.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Albania",
+      "year": 2024,
+      "value": 22.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "%"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2010,
+      "value": 25.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2011,
+      "value": 28.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2012,
+      "value": 32.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2013,
+      "value": 35.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2014,
+      "value": 39.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2015,
+      "value": 42.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2016,
+      "value": 45.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2017,
+      "value": 48.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2018,
+      "value": 51.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2019,
+      "value": 54.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2020,
+      "value": 56.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2021,
+      "value": 59.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2022,
+      "value": 62.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2023,
+      "value": 64.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Albania",
+      "year": 2024,
+      "value": 67.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 100 people"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2010,
+      "value": 12.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2011,
+      "value": 14.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2012,
+      "value": 16.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2013,
+      "value": 19.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2014,
+      "value": 22.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2015,
+      "value": 24.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2016,
+      "value": 27.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2017,
+      "value": 30.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2018,
+      "value": 33.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2019,
+      "value": 36.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2020,
+      "value": 40.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2021,
+      "value": 43.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2022,
+      "value": 47.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2023,
+      "value": 50.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Albania",
+      "year": 2024,
+      "value": 54.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Mbps"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2010,
+      "value": 18.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2011,
+      "value": 19.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2012,
+      "value": 20.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2013,
+      "value": 21.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2014,
+      "value": 22.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2015,
+      "value": 23.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2016,
+      "value": 24.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2017,
+      "value": 25.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2018,
+      "value": 26.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2019,
+      "value": 26.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2020,
+      "value": 27.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2021,
+      "value": 27.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2022,
+      "value": 28.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2023,
+      "value": 28.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Albania",
+      "year": 2024,
+      "value": 29.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2010,
+      "value": 9.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2011,
+      "value": 9.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2012,
+      "value": 9.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2013,
+      "value": 9.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2014,
+      "value": 10.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2015,
+      "value": 10.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2016,
+      "value": 10.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2017,
+      "value": 10.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2018,
+      "value": 10.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2019,
+      "value": 11.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2020,
+      "value": 11.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2021,
+      "value": 11.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2022,
+      "value": 11.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2023,
+      "value": 11.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Productive skills",
+      "country": "Albania",
+      "year": 2024,
+      "value": 12.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "years"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2010,
+      "value": 2.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2011,
+      "value": 2.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2012,
+      "value": 2.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2013,
+      "value": 2.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2014,
+      "value": 2.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2015,
+      "value": 3.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2016,
+      "value": 3.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2017,
+      "value": 3.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2018,
+      "value": 3.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2019,
+      "value": 3.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2020,
+      "value": 4.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2021,
+      "value": 4.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2022,
+      "value": 4.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2023,
+      "value": 4.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Albania",
+      "year": 2024,
+      "value": 4.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "per 1000 people"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2010,
+      "value": 0.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2011,
+      "value": 0.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2012,
+      "value": 0.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2013,
+      "value": 0.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2014,
+      "value": 0.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2015,
+      "value": 0.8,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2016,
+      "value": 0.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2017,
+      "value": 1.0,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2018,
+      "value": 1.1,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2019,
+      "value": 1.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2020,
+      "value": 1.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2021,
+      "value": 1.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2022,
+      "value": 1.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2023,
+      "value": 1.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Albania",
+      "year": 2024,
+      "value": 1.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2010,
+      "value": 28.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2011,
+      "value": 30.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2012,
+      "value": 32.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2013,
+      "value": 34.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2014,
+      "value": 36.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2015,
+      "value": 38.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2016,
+      "value": 41.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2017,
+      "value": 43.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2018,
+      "value": 45.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2019,
+      "value": 48.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2020,
+      "value": 50.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2021,
+      "value": 52.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2022,
+      "value": 55.0,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2023,
+      "value": 57.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Albania",
+      "year": 2024,
+      "value": 59.6,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2010,
+      "value": 18.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2011,
+      "value": 19.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2012,
+      "value": 20.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2013,
+      "value": 22.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2014,
+      "value": 23.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2015,
+      "value": 24.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2016,
+      "value": 26.0,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2017,
+      "value": 27.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2018,
+      "value": 28.6,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2019,
+      "value": 29.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2020,
+      "value": 31.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2021,
+      "value": 32.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2022,
+      "value": 33.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2023,
+      "value": 35.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Albania",
+      "year": 2024,
+      "value": 36.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "%"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2010,
+      "value": 0.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2011,
+      "value": 0.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2012,
+      "value": 0.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2013,
+      "value": 0.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2014,
+      "value": 0.6,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2015,
+      "value": 0.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2016,
+      "value": 0.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2017,
+      "value": 0.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2018,
+      "value": 1.0,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2019,
+      "value": 1.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2020,
+      "value": 1.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2021,
+      "value": 1.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2022,
+      "value": 1.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2023,
+      "value": 1.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Albania",
+      "year": 2024,
+      "value": 1.6,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2010,
+      "value": 15.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2011,
+      "value": 18.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2012,
+      "value": 22.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2013,
+      "value": 26.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2014,
+      "value": 31.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2015,
+      "value": 36.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2016,
+      "value": 42.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2017,
+      "value": 48.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2018,
+      "value": 53.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2019,
+      "value": 59.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2020,
+      "value": 64.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2021,
+      "value": 70.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2022,
+      "value": 76.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2023,
+      "value": 81.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Albania",
+      "year": 2024,
+      "value": 87.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per million people"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2010,
+      "value": 3.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2011,
+      "value": 4.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2012,
+      "value": 5.0,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2013,
+      "value": 5.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2014,
+      "value": 6.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2015,
+      "value": 7.7,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2016,
+      "value": 8.6,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2017,
+      "value": 9.5,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2018,
+      "value": 10.4,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2019,
+      "value": 11.3,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2020,
+      "value": 12.2,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2021,
+      "value": 13.1,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2022,
+      "value": 14.0,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2023,
+      "value": 14.9,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Albania",
+      "year": 2024,
+      "value": 15.8,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "per 100 billion USD GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2010,
+      "value": 0.05,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2011,
+      "value": 0.07,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2012,
+      "value": 0.09,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2013,
+      "value": 0.11,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2014,
+      "value": 0.13,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2015,
+      "value": 0.15,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2016,
+      "value": 0.17,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2017,
+      "value": 0.19,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2018,
+      "value": 0.21,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2019,
+      "value": 0.23,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2020,
+      "value": 0.25,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2021,
+      "value": 0.27,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2022,
+      "value": 0.29,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2023,
+      "value": 0.31,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Albania",
+      "year": 2024,
+      "value": 0.33,
+      "category": "Foundational Capabilities",
+      "layer": "Intermediate",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2010,
+      "value": 1.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2011,
+      "value": 1.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2012,
+      "value": 1.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2013,
+      "value": 1.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2014,
+      "value": 2.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2015,
+      "value": 2.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2016,
+      "value": 2.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2017,
+      "value": 2.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2018,
+      "value": 2.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2019,
+      "value": 3.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2020,
+      "value": 3.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2021,
+      "value": 3.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2022,
+      "value": 3.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2023,
+      "value": 3.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Absorption and exposure to production technologies",
+      "country": "Albania",
+      "year": 2024,
+      "value": 4.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2010,
+      "value": 0.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2011,
+      "value": 0.9,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2012,
+      "value": 1.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2013,
+      "value": 1.1,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2014,
+      "value": 1.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2015,
+      "value": 1.3,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2016,
+      "value": 1.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2017,
+      "value": 1.5,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2018,
+      "value": 1.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2019,
+      "value": 1.7,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2020,
+      "value": 1.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2021,
+      "value": 1.9,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2022,
+      "value": 2.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2023,
+      "value": 2.1,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Deployment and adaptation of digital production technologies",
+      "country": "Albania",
+      "year": 2024,
+      "value": 2.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2010,
+      "value": 0.3,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2011,
+      "value": 0.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2012,
+      "value": 0.5,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2013,
+      "value": 0.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2014,
+      "value": 0.7,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2015,
+      "value": 0.8,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2016,
+      "value": 0.9,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2017,
+      "value": 1.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2018,
+      "value": 1.1,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2019,
+      "value": 1.2,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2020,
+      "value": 1.3,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2021,
+      "value": 1.4,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2022,
+      "value": 1.5,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2023,
+      "value": 1.6,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    },
+    {
+      "indicator": "Industrial competitiveness in digital technologies",
+      "country": "Albania",
+      "year": 2024,
+      "value": 1.7,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "% of GDP"
+    }
+  ]
+}
