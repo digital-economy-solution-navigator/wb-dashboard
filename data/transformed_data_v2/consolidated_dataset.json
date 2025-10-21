@@ -1,2328 +1,4642 @@
 {
   "metadata": {
     "title": "Western Balkans Dashboard Data",
-    "description": "Comprehensive dataset covering 17 indicators across Foundational and Digital Capabilities",
-    "transformation_date": "2025-10-16T11:05:00.000000",
+    "description": "Comprehensive dataset covering indicators across Foundational and Digital Capabilities",
+    "transformation_date": "2025-10-21T10:46:57.206971",
     "source_file": "data.xlsx",
-    "total_data_points": 1530,
-    "countries": ["Albania", "Bosnia and Herzegovina", "Kosovo", "Montenegro", "North Macedonia", "Serbia"],
-    "years": [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024],
+    "total_data_points": 510,
+    "countries": [
+      "Albania",
+      "Bosnia and Herzegovina",
+      "Kosovo",
+      "Montenegro",
+      "North Macedonia",
+      "Serbia"
+    ],
+    "years": [
+      2007,
+      2009,
+      2013,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022
+    ],
     "indicators": [
-      "Energy availability",
-      "Energy reliability", 
       "Access to digital connectivity",
-      "Quality of connectivity",
-      "Productive investments",
-      "Productive skills",
-      "Operational efficiency",
-      "Technology absorption",
       "Advanced skills",
-      "Specialized skills",
-      "Research effort",
-      "Research output",
+      "Energy availability",
+      "Energy reliability",
       "Innovation output (patents)",
       "Innovation output (royalties)",
-      "Absorption and exposure to production technologies",
-      "Deployment and adaptation of digital production technologies",
-      "Industrial competitiveness in digital technologies"
+      "Operational efficiency",
+      "Productive investments",
+      "Productive skills",
+      "Quality of connectivity",
+      "Research effort",
+      "Research output",
+      "Specialized skills",
+      "Technology absorption"
     ],
-    "categories": ["Digital Capabilities", "Foundational Capabilities"]
+    "categories": [
+      "Digital Capabilities",
+      "Foundational Capabilities"
+    ]
   },
   "data_points": [
     {
       "indicator": "Energy availability",
       "country": "Albania",
-      "year": 2010,
-      "value": 2156.78,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "kWh per capita"
-    },
-    {
-      "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2011,
-      "value": 2234.56,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "kWh per capita"
-    },
-    {
-      "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2012,
-      "value": 2312.34,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "kWh per capita"
-    },
-    {
-      "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2013,
-      "value": 2456.78,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "kWh per capita"
-    },
-    {
-      "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2014,
-      "value": 2567.89,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "kWh per capita"
-    },
-    {
-      "indicator": "Energy availability",
-      "country": "Albania",
       "year": 2015,
-      "value": 2678.91,
+      "value": 2026.0317,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2016,
-      "value": 2789.12,
+      "value": 2672.6235,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2017,
-      "value": 2891.23,
+      "value": 1555.9008,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2018,
-      "value": 3012.34,
+      "value": 2944.0195,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2019,
-      "value": 3123.45,
+      "value": 1798.9597,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2020,
-      "value": 3247.52,
+      "value": 1852.2072,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
       "country": "Albania",
       "year": 2021,
-      "value": 3156.78,
+      "value": 3138.6726,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2022,
-      "value": 3891.23,
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 4661.882,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2023,
-      "value": 4123.45,
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 5087.6396,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
     },
     {
       "indicator": "Energy availability",
-      "country": "Albania",
-      "year": 2024,
-      "value": 4256.78,
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 4720.896,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "kWh per capita"
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 5608.6055,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 5183.416,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 5059.6523,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 5628.338,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 5118.245,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 2680.31,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 2668.0012,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 2651.5378,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 2654.3687,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 2776.4968,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 2529.5134,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 2619.6567,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 2732.1282,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 4732.093,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 4958.4375,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 3921.2896,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 6017.8096,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 5440.9644,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 5389.0103,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 6004.5615,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 5278.4165,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 4999.002,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 5152.6113,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 4881.524,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 4932.8574,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 4980.3706,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 5059.7915,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 5143.3706,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 4881.3486,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2015,
+      "value": 3473.3237,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2016,
+      "value": 3415.73,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2017,
+      "value": 3418.6653,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2018,
+      "value": 3456.2087,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 3764.3997,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2020,
+      "value": 4010.29,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2021,
+      "value": 4157.586,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy availability",
+      "country": "Kosovo",
+      "year": 2022,
+      "value": 4163.35,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
       "country": "Albania",
-      "year": 2010,
-      "value": 45.2,
+      "year": 2007,
+      "value": 90.0,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2011,
-      "value": 43.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2012,
-      "value": 42.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
       "country": "Albania",
       "year": 2013,
-      "value": 40.5,
+      "value": 54.4,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2014,
-      "value": 38.9,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2015,
-      "value": 37.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2016,
-      "value": 35.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2017,
-      "value": 34.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2018,
-      "value": 32.5,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
       "country": "Albania",
       "year": 2019,
-      "value": 30.8,
+      "value": 58.7,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2020,
-      "value": 28.9,
+      "country": "Bosnia and Herzegovina",
+      "year": 2009,
+      "value": 31.8,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2021,
-      "value": 27.2,
+      "country": "Bosnia and Herzegovina",
+      "year": 2013,
+      "value": 49.1,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2022,
-      "value": 25.6,
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 63.4,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2023,
-      "value": 24.1,
+      "country": "North Macedonia",
+      "year": 2009,
+      "value": 36.8,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "%"
+      "unit": "Various"
     },
     {
       "indicator": "Energy reliability",
-      "country": "Albania",
-      "year": 2024,
-      "value": 22.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "%"
-    },
-    {
-      "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2010,
-      "value": 25.4,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
-    },
-    {
-      "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2011,
-      "value": 28.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
-    },
-    {
-      "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2012,
-      "value": 32.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
-    },
-    {
-      "indicator": "Access to digital connectivity",
-      "country": "Albania",
+      "country": "North Macedonia",
       "year": 2013,
-      "value": 35.8,
+      "value": 39.0,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 100 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2014,
-      "value": 39.2,
+      "indicator": "Energy reliability",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 23.2,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 100 people"
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Montenegro",
+      "year": 2009,
+      "value": 55.3,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Montenegro",
+      "year": 2013,
+      "value": 75.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 38.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Serbia",
+      "year": 2009,
+      "value": 57.4,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Serbia",
+      "year": 2013,
+      "value": 44.2,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 49.5,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Kosovo",
+      "year": 2009,
+      "value": 96.7,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Kosovo",
+      "year": 2013,
+      "value": 80.6,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Energy reliability",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 59.9,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2015,
-      "value": 42.6,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 8.425730621,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2016,
-      "value": 45.9,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 9.245858213,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2017,
-      "value": 48.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 10.54444485,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2018,
-      "value": 51.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 12.58065223,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2019,
-      "value": 54.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 15.17778727,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2020,
-      "value": 56.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 17.75249333,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2021,
-      "value": 59.4,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 19.59547555,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
       "country": "Albania",
       "year": 2022,
-      "value": 62.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "value": 20.48009356,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2023,
-      "value": 64.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 18.01727083,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Access to digital connectivity",
-      "country": "Albania",
-      "year": 2024,
-      "value": 67.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "per 100 people"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2010,
-      "value": 12.5,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2011,
-      "value": 14.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2012,
-      "value": 16.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2013,
-      "value": 19.5,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2014,
-      "value": 22.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2015,
-      "value": 24.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
-    },
-    {
-      "indicator": "Quality of connectivity",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2016,
-      "value": 27.4,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 19.03104465,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 20.35876463,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 21.06878886,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 22.19431478,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 23.21668198,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 24.39336301,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 27.07635566,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 17.28783536,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 18.08035841,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 18.76415438,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 20.24915176,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 21.48827723,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 22.52736998,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 23.71377768,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 24.19175028,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 17.728711,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 18.13588014,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 21.72956084,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 25.18453413,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 28.36011015,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 29.27852882,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 29.98858024,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 31.25986713,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 18.65687672,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 20.60940259,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 21.14926578,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 22.28909538,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 23.44245929,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 25.18349944,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Access to digital connectivity",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 26.19255897,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2017,
-      "value": 30.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 4.67,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2018,
-      "value": 33.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 5.5586901371,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2019,
-      "value": 36.9,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 7.61478016385477,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2020,
-      "value": 40.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 12.3570960817061,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2021,
-      "value": 43.6,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 19.35611002,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
       "country": "Albania",
       "year": 2022,
-      "value": 47.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "value": 11.47,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2023,
-      "value": 50.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 7.0,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Quality of connectivity",
-      "country": "Albania",
-      "year": 2024,
-      "value": 54.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "Mbps"
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 7.3669938019,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2010,
-      "value": 18.5,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "indicator": "Quality of connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 7.53098776371754,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2011,
-      "value": 19.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "indicator": "Quality of connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 15.6615040717904,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2012,
-      "value": 20.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "indicator": "Quality of connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 31.72436353,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2013,
-      "value": 21.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "indicator": "Quality of connectivity",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 8.16,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2014,
-      "value": 22.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 7.34,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 8.8205883006,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 7.97244346396367,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 11.4840429730004,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 15.37969741,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 21.59,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 5.85,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 6.7366232698,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 9.10422671756793,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 25.0727867048177,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 40.13675285,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 38.65,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 12.25,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 12.9976124407,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 19.1689574220217,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 24.7403732137705,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 36.59169679,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 51.84,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Kosovo",
+      "year": 2018,
+      "value": 11.6408706324,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 12.0742642080664,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Kosovo",
+      "year": 2020,
+      "value": 20.3040008678203,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Kosovo",
+      "year": 2021,
+      "value": 22.20610078,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Quality of connectivity",
+      "country": "Kosovo",
+      "year": 2022,
+      "value": 38.64,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2015,
-      "value": 23.8,
+      "value": 24.413490277883326,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2016,
-      "value": 24.9,
+      "value": 24.367931223467362,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2017,
-      "value": 25.6,
+      "value": 24.57650336361773,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2018,
-      "value": 26.2,
+      "value": 23.862626974036047,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2019,
-      "value": 26.8,
+      "value": 22.313298415892838,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2020,
-      "value": 27.1,
+      "value": 22.6495060386901,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2021,
-      "value": 27.5,
+      "value": 24.353614609987417,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
       "country": "Albania",
       "year": 2022,
-      "value": 28.2,
+      "value": 23.886990378981068,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2023,
-      "value": 28.9,
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 20.87495987581708,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
       "indicator": "Productive investments",
-      "country": "Albania",
-      "year": 2024,
-      "value": 29.6,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2010,
-      "value": 9.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2011,
-      "value": 9.4,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2012,
-      "value": 9.6,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2013,
-      "value": 9.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2014,
-      "value": 10.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2015,
-      "value": 10.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "years"
-    },
-    {
-      "indicator": "Productive skills",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2016,
-      "value": 10.5,
+      "value": 20.470063460873504,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 21.652403267178943,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 22.420369061483832,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 22.716680696335455,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 22.111667820123408,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 21.39599419726378,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 23.906618433717263,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 24.444220277574626,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 22.55794313596697,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 20.031987749630037,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 21.042237213848182,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 21.591256516068896,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 23.45544117250839,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 20.147067515443922,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 24.74513879001399,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 26.92204003125312,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 29.2492381726437,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 27.30539838976859,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 27.859807294281065,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 22.121924088154547,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 21.51396231409155,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 16.970582572448556,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 17.0597209009627,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 17.736784762802273,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 20.04095777191739,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 22.464787995937847,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 21.439561795910368,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 23.26787922858776,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 24.15525313720249,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2015,
+      "value": 28.267085481642802,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2016,
+      "value": 28.01159663033182,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2017,
+      "value": 29.95952461560341,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2018,
+      "value": 31.711269439157874,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 31.04263898329009,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2020,
+      "value": 29.706190647353463,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2021,
+      "value": 32.88072506793585,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Productive investments",
+      "country": "Kosovo",
+      "year": 2022,
+      "value": 32.35767375690969,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
       "country": "Albania",
       "year": 2017,
-      "value": 10.7,
+      "value": 9.9767,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2018,
-      "value": 10.9,
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 9.29191,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2019,
-      "value": 11.1,
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 9.69292,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2020,
-      "value": 11.3,
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 9.81238,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2021,
-      "value": 11.5,
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 10.53632,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2022,
-      "value": 11.7,
+      "value": 10.96928,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2023,
-      "value": 11.9,
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 11.68542,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
       "indicator": "Productive skills",
-      "country": "Albania",
-      "year": 2024,
-      "value": 12.1,
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 10.22815,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "years"
+      "unit": "Various"
     },
     {
-      "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2010,
-      "value": 2.1,
+      "indicator": "Productive skills",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 12.31016,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2011,
-      "value": 2.3,
+      "indicator": "Productive skills",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 11.01757,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2012,
-      "value": 2.5,
+      "indicator": "Productive skills",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 11.1301,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2013,
-      "value": 2.7,
+      "indicator": "Productive skills",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 11.1624,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2014,
-      "value": 2.9,
+      "indicator": "Productive skills",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 11.36987,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2015,
-      "value": 3.1,
+      "value": 0.0968513588523357,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2016,
-      "value": 3.3,
+      "value": 0.10952327473896083,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2017,
-      "value": 3.5,
+      "value": 0.07517077861266064,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2018,
-      "value": 3.7,
+      "value": 0.07465873283895763,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2019,
-      "value": 3.9,
+      "value": 0.1271813974607866,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2020,
-      "value": 4.1,
+      "value": 0.13319947608206073,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2021,
-      "value": 4.3,
+      "value": 0.13266156079705058,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
       "country": "Albania",
       "year": 2022,
-      "value": 4.5,
+      "value": 0.16272520069741428,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2023,
-      "value": 4.7,
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 0.2241564623456867,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
       "indicator": "Operational efficiency",
-      "country": "Albania",
-      "year": 2024,
-      "value": 4.9,
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 0.2979040995855772,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "per 1000 people"
+      "unit": "Various"
     },
     {
-      "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2010,
-      "value": 0.3,
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 0.3313927477894795,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2011,
-      "value": 0.4,
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 0.395867333268826,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2012,
-      "value": 0.5,
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 0.2782149372558366,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2013,
-      "value": 0.6,
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 0.34504507735187395,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2014,
-      "value": 0.7,
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 0.4053876817786186,
       "category": "Foundational Capabilities",
       "layer": "Basic",
-      "unit": "% of GDP"
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 0.2965802656295326,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 0.17534317509296085,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 0.13799825330882173,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 0.21402727015929607,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 0.2099973172361078,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 0.2417303656677392,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 0.30349365099967146,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 0.3428418685462924,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 0.2536838836378269,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 0.1350137183581689,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 0.14783795032323482,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 0.0739106612915406,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 0.2201768807846654,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 0.2620460815268766,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 0.3540928302639923,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 0.2487035921519482,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 0.2592297958727376,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 0.3540330381037923,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 0.42743870285317104,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 0.31520364035278875,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 0.34757806686445347,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 0.3897636293084395,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 0.44817271057232466,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 0.5064142389461668,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 0.5313267458420043,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Kosovo",
+      "year": 2015,
+      "value": 0.005033005330511867,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Kosovo",
+      "year": 2016,
+      "value": 0.010126257554610062,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Operational efficiency",
+      "country": "Kosovo",
+      "year": 2017,
+      "value": 0.0,
+      "category": "Foundational Capabilities",
+      "layer": "Basic",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2015,
-      "value": 0.8,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0021584553260622103,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2016,
-      "value": 0.9,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0019528447892959975,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2017,
-      "value": 1.0,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0010086561497547556,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2018,
-      "value": 1.1,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0017426581939522423,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2019,
-      "value": 1.2,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0022584474709176593,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2020,
-      "value": 1.3,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0025463299111314923,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2021,
-      "value": 1.4,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0019387969225855275,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
       "country": "Albania",
       "year": 2022,
-      "value": 1.5,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "value": 0.0016772537201994893,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2023,
-      "value": 1.6,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 0.0006080940324696912,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Technology absorption",
-      "country": "Albania",
-      "year": 2024,
-      "value": 1.7,
-      "category": "Foundational Capabilities",
-      "layer": "Basic",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 0.00045755128877345783,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2010,
-      "value": 28.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 0.00047798884876216314,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2011,
-      "value": 30.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 0.00040890490186961634,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2012,
-      "value": 32.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 0.0006819289941696678,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2013,
-      "value": 34.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 0.0006796624394142807,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2014,
-      "value": 36.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 0.0006756419434403635,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 0.0006428512713302544,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 0.005579783259298618,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 0.006266589490577846,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 0.0047197181790111405,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 0.014885716791826145,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 0.012736048667526126,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 0.014859038315275087,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 0.012104336419743919,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 0.010149211034965413,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 0.0008499681155957591,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 0.0013742336488693993,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 0.0010503574565532536,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 0.0010957709746014829,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 0.001059918686598948,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 0.0007787491414654145,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 0.0007998548620454195,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 0.0010584343046419371,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 0.004547420389347947,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 0.004908652480056693,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 0.005418467086231187,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 0.005721290222936626,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 0.005906359511984941,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 0.006527081317369831,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 0.007977137814935005,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 0.01006581010967542,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2015,
+      "value": 0.0002698595801645783,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2016,
+      "value": 0.00039353576188379285,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2017,
+      "value": 0.0002700726260090289,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2018,
+      "value": 0.0008963152070888258,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 0.001300423432554838,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2020,
+      "value": 0.0008038912830068492,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2021,
+      "value": 0.0008687316726737375,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Technology absorption",
+      "country": "Kosovo",
+      "year": 2022,
+      "value": 0.00046732696026698426,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2015,
-      "value": 38.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 62.9865608215332,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2016,
-      "value": 41.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 59.2744903564453,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2017,
-      "value": 43.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 58.6535110473633,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2018,
-      "value": 45.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 56.6088714599609,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2019,
-      "value": 48.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 62.0760917663574,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2020,
-      "value": 50.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 61.392578125,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2021,
-      "value": 52.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 60.3175811767578,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
       "country": "Albania",
       "year": 2022,
-      "value": 55.0,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 62.731990814209,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2023,
-      "value": 57.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 48.6234397888184,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Advanced skills",
-      "country": "Albania",
-      "year": 2024,
-      "value": 59.6,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 48.668140411377,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2010,
-      "value": 18.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 46.4159202575684,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2011,
-      "value": 19.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 43.1571083068848,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2012,
-      "value": 20.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 41.597038269043,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2013,
-      "value": 22.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 40.8813400268555,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2014,
-      "value": 23.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 43.5776786804199,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 44.6326713562012,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 60.3350410461426,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 56.3024101257324,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 58.3580207824707,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 56.4022407531738,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 54.9641799926758,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 56.8306694030762,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 56.8281402587891,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 56.0675506591797,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 41.060920715332,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 40.9570503234863,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 40.9259605407715,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 39.7398986816406,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 40.4296417236328,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 40.5491714477539,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 57.9373207092285,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 61.4245681762695,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 65.6561813354492,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 66.0524826049805,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 66.6146621704102,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 66.8844833374023,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 68.7404479980469,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Advanced skills",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 69.6912078857422,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2015,
-      "value": 24.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 18.14513,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2016,
-      "value": 26.0,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 17.72032,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2017,
-      "value": 27.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 19.35248,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2018,
-      "value": 28.6,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 20.62859,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2019,
-      "value": 29.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 18.82147,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2020,
-      "value": 31.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 20.11007,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2021,
-      "value": 32.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 18.54084,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
       "country": "Albania",
       "year": 2022,
-      "value": 33.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "value": 20.81203,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2023,
-      "value": 35.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 16.97994,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Specialized skills",
-      "country": "Albania",
-      "year": 2024,
-      "value": 36.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "%"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 19.70847,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 20.31226,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 21.21636,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 23.52245,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 23.32112,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 23.96216,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 24.51833,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 20.45364,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 19.95693,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 21.88985,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 23.57012,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 20.61319,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 20.6143,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 25.87672,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 25.90907,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 26.63772,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 28.12624,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 28.35468,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 30.46895,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 30.10267,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Specialized skills",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 29.82235,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2010,
-      "value": 0.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 0.21603,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2011,
-      "value": 0.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 0.21337,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2012,
-      "value": 0.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 0.1978,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2013,
-      "value": 0.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 0.19199,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2014,
-      "value": 0.6,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 0.19001,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research effort",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 0.20325,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 0.19054,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 0.18749,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 0.374,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 0.32454,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 0.34898,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 0.50374,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 0.36328,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 0.44412,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 0.43585,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 0.35439,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 0.36367,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 0.36783,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 0.37264,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 0.37719,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 0.38373,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 0.8109,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 0.83822,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 0.87238,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 0.91891,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 0.88667,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 0.90558,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 0.99409,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research effort",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 0.9671,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2015,
-      "value": 0.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 57.99625994071585,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research effort",
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2016,
-      "value": 0.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 59.40333806079828,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research effort",
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2017,
-      "value": 0.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 47.08614049209715,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research effort",
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2018,
-      "value": 1.0,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 58.80247392526313,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research effort",
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2019,
-      "value": 1.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 66.92964836620955,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research effort",
+      "indicator": "Research output",
       "country": "Albania",
       "year": 2020,
-      "value": 1.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2021,
-      "value": 1.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2022,
-      "value": 1.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2023,
-      "value": 1.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Research effort",
-      "country": "Albania",
-      "year": 2024,
-      "value": 1.6,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 58.903768311844644,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
-      "country": "Albania",
-      "year": 2010,
-      "value": 15.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 160.76558227904133,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
-      "country": "Albania",
-      "year": 2011,
-      "value": 18.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 160.23908168547646,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
-      "country": "Albania",
-      "year": 2012,
-      "value": 22.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 210.27741933420873,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
-      "country": "Albania",
-      "year": 2013,
-      "value": 26.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 212.9183922139425,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
-      "country": "Albania",
-      "year": 2014,
-      "value": 31.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 228.37429341588728,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Research output",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 281.0113406824419,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2015,
+      "value": 76.03193385959929,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2016,
+      "value": 102.61836891869008,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2017,
+      "value": 122.88086619620402,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2018,
+      "value": 143.2319561957281,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2019,
+      "value": 151.1841500650128,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Kosovo",
+      "year": 2020,
+      "value": 147.05611259051702,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 363.86197097526514,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 386.80514154680276,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 456.39833347526326,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 408.29150776163686,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 448.0827229642396,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 497.8545193511731,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 244.4032680489956,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 228.02522569469573,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 230.89396876937212,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 215.36284502053493,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 203.62653332652766,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 206.19233198441904,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 689.7696713482557,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 705.6124670991206,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 691.1235065571757,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 679.5315902204966,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 711.1609614361502,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Research output",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 687.237774755817,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2015,
-      "value": 36.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 61.474403248398,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2016,
-      "value": 42.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 67.44680229735025,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2017,
-      "value": 48.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 330.26808168390517,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2018,
-      "value": 53.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 13.195724783065893,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2019,
-      "value": 59.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 84.40557562843945,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2020,
-      "value": 64.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 79.14139915377586,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2021,
-      "value": 70.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 156.15793375421723,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Research output",
+      "indicator": "Innovation output (patents)",
       "country": "Albania",
       "year": 2022,
-      "value": 76.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
-    },
-    {
-      "indicator": "Research output",
-      "country": "Albania",
-      "year": 2023,
-      "value": 81.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
-    },
-    {
-      "indicator": "Research output",
-      "country": "Albania",
-      "year": 2024,
-      "value": 87.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per million people"
+      "value": 496.92385996794707,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2010,
-      "value": 3.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2015,
+      "value": 134.11077862588667,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2011,
-      "value": 4.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2016,
+      "value": 134.36991875627064,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2012,
-      "value": 5.0,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2017,
+      "value": 169.1551262254963,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2013,
-      "value": 5.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2018,
+      "value": 156.21907755547224,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2014,
-      "value": 6.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "country": "Bosnia and Herzegovina",
+      "year": 2019,
+      "value": 224.5807677594774,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (patents)",
+      "country": "Bosnia and Herzegovina",
+      "year": 2020,
+      "value": 158.21191610175893,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Bosnia and Herzegovina",
+      "year": 2021,
+      "value": 169.13627991748191,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Bosnia and Herzegovina",
+      "year": 2022,
+      "value": 122.5795309264124,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2015,
+      "value": 172.63787887411507,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2016,
+      "value": 114.23530509626319,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2017,
+      "value": 144.13377153449414,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2018,
+      "value": 199.7478732096253,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2019,
+      "value": 252.6139143077659,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2020,
+      "value": 314.465615415693,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2021,
+      "value": 358.2744985182991,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Montenegro",
+      "year": 2022,
+      "value": 497.60814366195376,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2015,
+      "value": 99.35893651355926,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2016,
+      "value": 140.5485713565178,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2017,
+      "value": 185.72455501159996,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2018,
+      "value": 189.22866126577068,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2019,
+      "value": 1435.7856624170074,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2020,
+      "value": 363.97223178002804,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2021,
+      "value": 535.7772023639369,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "North Macedonia",
+      "year": 2022,
+      "value": 317.03591527455524,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 1144.8471240135966,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 1186.9461970019424,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 1161.1831867354254,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 1149.2740559394822,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 1242.3748530322105,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 1321.3014414242957,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 1110.9161934567599,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (patents)",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 1212.9621564338695,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2015,
-      "value": 7.7,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 170.8359093100564,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2016,
-      "value": 8.6,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 227.96448101284287,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2017,
-      "value": 9.5,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 844.2163737669788,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2018,
-      "value": 10.4,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 986.3439201537774,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2019,
-      "value": 11.3,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 1113.4424526690573,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2020,
-      "value": 12.2,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 1046.3683332913824,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2021,
-      "value": 13.1,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 1078.1884561029067,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
-      "indicator": "Innovation output (patents)",
+      "indicator": "Innovation output (royalties)",
       "country": "Albania",
       "year": 2022,
-      "value": 14.0,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
-    },
-    {
-      "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2023,
-      "value": 14.9,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
-    },
-    {
-      "indicator": "Innovation output (patents)",
-      "country": "Albania",
-      "year": 2024,
-      "value": 15.8,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "per 100 billion USD GDP"
+      "value": 699.0141592170385,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2010,
-      "value": 0.05,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2011,
-      "value": 0.07,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2012,
-      "value": 0.09,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2013,
-      "value": 0.11,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2014,
-      "value": 0.13,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2015,
-      "value": 0.15,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 785.9472391558157,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2016,
-      "value": 0.17,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 762.1768575606064,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2017,
-      "value": 0.19,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 633.78536643027,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2018,
-      "value": 0.21,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 1307.2451591485608,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2019,
-      "value": 0.23,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 1121.9294671160378,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2020,
-      "value": 0.25,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 610.7479161236688,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2021,
-      "value": 0.27,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 82.39776326108911,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
+      "country": "Bosnia and Herzegovina",
       "year": 2022,
-      "value": 0.29,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
+      "value": 271.1317466909993,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     },
     {
       "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2023,
-      "value": 0.31,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Innovation output (royalties)",
-      "country": "Albania",
-      "year": 2024,
-      "value": 0.33,
-      "category": "Foundational Capabilities",
-      "layer": "Intermediate",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2010,
-      "value": 1.2,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2011,
-      "value": 1.4,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2012,
-      "value": 1.6,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2013,
-      "value": 1.8,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2014,
-      "value": 2.0,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "country": "Kosovo",
       "year": 2015,
-      "value": 2.2,
+      "value": 49.22192899634524,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2016,
-      "value": 2.4,
+      "value": 2.452015461864457,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2017,
-      "value": 2.6,
+      "value": 48.30794815391295,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2018,
-      "value": 2.8,
+      "value": 25.00454277290704,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2019,
-      "value": 3.0,
+      "value": 118.47497830534675,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2020,
-      "value": 3.2,
+      "value": 198.61927207094786,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2021,
-      "value": 3.4,
+      "value": 82.2964441054086,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Kosovo",
       "year": 2022,
-      "value": 3.6,
+      "value": 28.509854280266108,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2023,
-      "value": 3.8,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Absorption and exposure to production technologies",
-      "country": "Albania",
-      "year": 2024,
-      "value": 4.0,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2010,
-      "value": 0.8,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2011,
-      "value": 0.9,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2012,
-      "value": 1.0,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2013,
-      "value": 1.1,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2014,
-      "value": 1.2,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2015,
-      "value": 1.3,
+      "value": 188.61988867342296,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2016,
-      "value": 1.4,
+      "value": 127.73299256328097,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2017,
-      "value": 1.5,
+      "value": 105.12920893014483,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2018,
-      "value": 1.6,
+      "value": 78.36592458369046,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2019,
-      "value": 1.7,
+      "value": 132.57094394810312,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2020,
-      "value": 1.8,
+      "value": 103.98155331936962,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2021,
-      "value": 1.9,
+      "value": 92.43092483244428,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "Montenegro",
       "year": 2022,
-      "value": 2.0,
+      "value": 147.35748997120413,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2023,
-      "value": 2.1,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Deployment and adaptation of digital production technologies",
-      "country": "Albania",
-      "year": 2024,
-      "value": 2.2,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2010,
-      "value": 0.3,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2011,
-      "value": 0.4,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2012,
-      "value": 0.5,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2013,
-      "value": 0.6,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2014,
-      "value": 0.7,
-      "category": "Digital Capabilities",
-      "layer": "Advanced",
-      "unit": "% of GDP"
-    },
-    {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2015,
-      "value": 0.8,
+      "value": 918.7816243987877,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2016,
-      "value": 0.9,
+      "value": 722.764844063753,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2017,
-      "value": 1.0,
+      "value": 865.9833659489731,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2018,
-      "value": 1.1,
+      "value": 934.1835030199279,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2019,
-      "value": 1.2,
+      "value": 852.6648752032315,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2020,
-      "value": 1.3,
+      "value": 977.8321875356161,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2021,
-      "value": 1.4,
+      "value": 1109.0043739295893,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
+      "indicator": "Innovation output (royalties)",
+      "country": "North Macedonia",
       "year": 2022,
-      "value": 1.5,
+      "value": 1011.8386296486813,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2023,
-      "value": 1.6,
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2015,
+      "value": 1141.5886758694598,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
     },
     {
-      "indicator": "Industrial competitiveness in digital technologies",
-      "country": "Albania",
-      "year": 2024,
-      "value": 1.7,
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2016,
+      "value": 1040.1203373075418,
       "category": "Digital Capabilities",
       "layer": "Advanced",
-      "unit": "% of GDP"
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2017,
+      "value": 1135.5272812570008,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2018,
+      "value": 1143.1338699902008,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2019,
+      "value": 1050.497884458091,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2020,
+      "value": 1712.010661773811,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2021,
+      "value": 2228.7533056040234,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
+    },
+    {
+      "indicator": "Innovation output (royalties)",
+      "country": "Serbia",
+      "year": 2022,
+      "value": 3314.751098230862,
+      "category": "Digital Capabilities",
+      "layer": "Advanced",
+      "unit": "Various"
     }
   ]
 }

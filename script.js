@@ -1,6 +1,7 @@
 // Global state
 let allIndicatorsData = [];
 let filteredData = [];
+let metadata = null;
 
 // Initialize dashboard
 async function initDashboard() {
@@ -12,11 +13,32 @@ async function initDashboard() {
         
         const data = await response.json();
         allIndicatorsData = data.data_points || [];
+        metadata = data.metadata || {};
         
-        console.log('Loaded data:', allIndicatorsData.length, 'data points');
+    console.log('Loaded data:', allIndicatorsData.length, 'data points');
+    console.log('Sample data point:', allIndicatorsData[0]);
+    console.log('Available indicators in metadata:', metadata.indicators);
+    console.log('Metadata:', metadata);
+    
+    // Debug: Check what indicators are actually in the data
+    const actualIndicators = [...new Set(allIndicatorsData.map(d => d.indicator))];
+    console.log('Actual indicators in data:', actualIndicators);
+    console.log('Count of data points per indicator:');
+    actualIndicators.forEach(indicator => {
+        const count = allIndicatorsData.filter(d => d.indicator === indicator).length;
+        console.log(`  ${indicator}: ${count} data points`);
+    });
         
-        populateFilters();
-        applyFilters();
+        // Ensure DOM is ready before populating filters
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', () => {
+                populateFilters();
+                applyFilters();
+            });
+        } else {
+            populateFilters();
+            applyFilters();
+        }
         
     } catch (error) {
         console.error('Error loading data:', error);
@@ -41,8 +63,12 @@ async function initDashboard() {
 
 // Populate filter dropdowns
 function populateFilters() {
+    console.log('populateFilters called with data length:', allIndicatorsData.length);
+    console.log('Metadata available:', metadata);
+    
     // Get unique countries and sort them
     const countries = [...new Set(allIndicatorsData.map(d => d.country))].sort();
+    console.log('Found countries:', countries);
     const countrySelect = document.getElementById('countryFilter');
     countries.forEach(country => {
         const option = document.createElement('option');
@@ -51,47 +77,51 @@ function populateFilters() {
         countrySelect.appendChild(option);
     });
     
-    // Get unique indicators and sort them
-    const indicators = [...new Set(allIndicatorsData.map(d => d.indicator))].sort();
+    // Use metadata indicators if available, otherwise extract from data
+    let indicators = [];
+    if (metadata && metadata.indicators && metadata.indicators.length > 0) {
+        indicators = [...metadata.indicators].sort();
+        console.log('Using metadata indicators:', indicators);
+    } else {
+        indicators = [...new Set(allIndicatorsData.map(d => d.indicator))].sort();
+        console.log('Extracted indicators from data:', indicators);
+    }
+    
     const indicatorSelect = document.getElementById('indicatorFilter');
+    console.log('Indicator select element:', indicatorSelect);
+    console.log('Current indicator select innerHTML:', indicatorSelect.innerHTML);
+    
+    // Clear existing options first
+    indicatorSelect.innerHTML = '<option value="">All Indicators</option>';
+    
     indicators.forEach(indicator => {
         const option = document.createElement('option');
         option.value = indicator;
         option.textContent = indicator;
         indicatorSelect.appendChild(option);
+        console.log('Added indicator option:', indicator);
     });
     
-    // Populate year range dynamically from data
+    console.log('Final indicator select innerHTML:', indicatorSelect.innerHTML);
+    console.log('Number of options in indicator select:', indicatorSelect.options.length);
+    
+    // Test: Try to manually add a test option to verify the dropdown works
+    const testOption = document.createElement('option');
+    testOption.value = 'TEST_INDICATOR';
+    testOption.textContent = 'TEST INDICATOR';
+    indicatorSelect.appendChild(testOption);
+    console.log('Added test option, total options now:', indicatorSelect.options.length);
+    
+    // Populate year filter dynamically from data
     const years = [...new Set(allIndicatorsData.map(d => d.year))].filter(y => y).sort();
-    const yearFromSelect = document.getElementById('yearFromFilter');
-    const yearToSelect = document.getElementById('yearToFilter');
+    console.log('Found years:', years);
+    const yearSelect = document.getElementById('yearFilter');
     
     years.forEach(year => {
-        const fromOption = document.createElement('option');
-        fromOption.value = year;
-        fromOption.textContent = year;
-        yearFromSelect.appendChild(fromOption);
-        
-        const toOption = document.createElement('option');
-        toOption.value = year;
-        toOption.textContent = year;
-        yearToSelect.appendChild(toOption);
-    });
-    
-    // Set default year range to full range
-    if (years.length > 0) {
-        yearFromSelect.value = years[0];
-        yearToSelect.value = years[years.length - 1];
-    }
-    
-    // Populate layer filter
-    const layers = [...new Set(allIndicatorsData.map(d => d.layer))].filter(l => l && l !== 'Unknown').sort();
-    const layerSelect = document.getElementById('layerFilter');
-    layers.forEach(layer => {
         const option = document.createElement('option');
-        option.value = layer;
-        option.textContent = layer;
-        layerSelect.appendChild(option);
+        option.value = year;
+        option.textContent = year;
+        yearSelect.appendChild(option);
     });
 }
 
@@ -100,9 +130,7 @@ function populateEmptyFilters() {
     // Clear existing options
     document.getElementById('countryFilter').innerHTML = '<option value="">All Countries</option>';
     document.getElementById('indicatorFilter').innerHTML = '<option value="">All Indicators</option>';
-    document.getElementById('yearFromFilter').innerHTML = '<option value="">From</option>';
-    document.getElementById('yearToFilter').innerHTML = '<option value="">To</option>';
-    document.getElementById('layerFilter').innerHTML = '<option value="">All</option>';
+    document.getElementById('yearFilter').innerHTML = '<option value="">All Years</option>';
     
     // Show message in preview
     document.getElementById('preview-container').innerHTML = 
@@ -114,9 +142,7 @@ function getFilters() {
     return {
         country: document.getElementById('countryFilter').value,
         indicator: document.getElementById('indicatorFilter').value,
-        yearFrom: document.getElementById('yearFromFilter').value,
-        yearTo: document.getElementById('yearToFilter').value,
-        layer: document.getElementById('layerFilter').value
+        year: document.getElementById('yearFilter').value
     };
 }
 
@@ -145,33 +171,18 @@ function applyFilters(data = allIndicatorsData, filters = getFilters()) {
     // Filter by indicator
     if (filters.indicator) {
         const beforeCount = filtered.length;
+        console.log('Before indicator filter - sample data points:', filtered.slice(0, 3).map(d => ({ indicator: d.indicator, country: d.country, year: d.year })));
         filtered = filtered.filter(d => d.indicator === filters.indicator);
         console.log(`Indicator filter (${filters.indicator}): ${beforeCount} -> ${filtered.length}`);
+        console.log('After indicator filter - sample results:', filtered.slice(0, 3).map(d => ({ indicator: d.indicator, country: d.country, year: d.year })));
     }
     
-    // Filter by year range
-    if (filters.yearFrom) {
-        const yearFrom = parseInt(filters.yearFrom);
+    // Filter by year
+    if (filters.year) {
+        const year = parseInt(filters.year);
         const beforeCount = filtered.length;
-        filtered = filtered.filter(d => d.year >= yearFrom);
-        console.log(`Year from filter (${yearFrom}): ${beforeCount} -> ${filtered.length}`);
-    }
-    
-    if (filters.yearTo) {
-        const yearTo = parseInt(filters.yearTo);
-        const beforeCount = filtered.length;
-        filtered = filtered.filter(d => d.year <= yearTo);
-        console.log(`Year to filter (${yearTo}): ${beforeCount} -> ${filtered.length}`);
-    }
-    
-    // Validate year range
-    if (filters.yearFrom && filters.yearTo) {
-        const yearFrom = parseInt(filters.yearFrom);
-        const yearTo = parseInt(filters.yearTo);
-        if (yearFrom > yearTo) {
-            alert('From year must be less than or equal to To year');
-            return;
-        }
+        filtered = filtered.filter(d => d.year === year);
+        console.log(`Year filter (${year}): ${beforeCount} -> ${filtered.length}`);
     }
     
     // Filter out rows with missing values
@@ -183,12 +194,6 @@ function applyFilters(data = allIndicatorsData, filters = getFilters()) {
     );
     console.log(`Value filter (removing null/NaN): ${beforeCount} -> ${filtered.length}`);
     
-    // Filter by layer
-    if (filters.layer && filters.layer !== 'All') {
-        const beforeCount = filtered.length;
-        filtered = filtered.filter(d => d.layer === filters.layer);
-        console.log(`Layer filter (${filters.layer}): ${beforeCount} -> ${filtered.length}`);
-    }
     
     filteredData = filtered;
     console.log('Final filtered data:', filteredData.length, 'points');
@@ -216,6 +221,11 @@ function renderPreview(rows) {
         return;
     }
     
+    // Smart optimization: Limit preview to 255 rows for better performance
+    const maxPreviewRows = 255;
+    const displayRows = rows.slice(0, maxPreviewRows);
+    const hasMoreData = rows.length > maxPreviewRows;
+    
     let tableHtml = `
         <table class="preview-table">
             <thead>
@@ -232,7 +242,7 @@ function renderPreview(rows) {
             <tbody>
     `;
     
-    rows.forEach(row => {
+    displayRows.forEach(row => {
         tableHtml += `
             <tr>
                 <td>${row.indicator}</td>
@@ -247,6 +257,11 @@ function renderPreview(rows) {
     });
     
     tableHtml += '</tbody></table>';
+    
+    // Add note if data is truncated
+    if (hasMoreData) {
+        tableHtml += `<div class="data-truncated">📊 Showing first ${maxPreviewRows} of ${rows.length} results. Use filters to narrow down your search.</div>`;
+    }
     
     container.innerHTML = tableHtml;
 }
@@ -277,13 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('clearFilters').addEventListener('click', function() {
         document.getElementById('countryFilter').value = '';
         document.getElementById('indicatorFilter').value = '';
-        // Reset to full year range
-        const years = [...new Set(allIndicatorsData.map(d => d.year))].filter(y => y).sort();
-        if (years.length > 0) {
-            document.getElementById('yearFromFilter').value = years[0];
-            document.getElementById('yearToFilter').value = years[years.length - 1];
-        }
-        document.getElementById('layerFilter').value = '';
+        document.getElementById('yearFilter').value = '';
         applyFilters();
     });
 });

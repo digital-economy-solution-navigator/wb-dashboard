@@ -75,15 +75,6 @@ h1 {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.year-range {
-    display: flex;
-    gap: 10px;
-    align-items: end;
-}
-
-.year-range .filter-group {
-    flex: 1;
-}
 
 .controls {
     display: flex;
@@ -188,6 +179,18 @@ h1 {
     padding: 40px;
     background-color: #f8f9fa;
     border-radius: 6px;
+}
+
+.data-truncated {
+    background: #e3f2fd;
+    border: 1px solid #bbdefb;
+    border-radius: 4px;
+    padding: 12px;
+    margin-top: 16px;
+    text-align: center;
+    color: #1976d2;
+    font-size: 0.9em;
+    font-weight: 500;
 }
 
 .error {
@@ -619,10 +622,6 @@ h1 {
         grid-template-columns: 1fr;
     }
     
-    .year-range {
-        flex-direction: column;
-        gap: 15px;
-    }
     
     .controls {
         flex-direction: column;
