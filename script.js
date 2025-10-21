@@ -277,18 +277,23 @@ function computeRegionalAverage(filteredData) {
     return null; // return shape { [year]: avgValue }
 }
 
-// Event listeners
+    // Event listeners
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize dashboard
     initDashboard();
     
-    // Filter change events - removed automatic filtering
-    // Now filtering only happens when "Apply Filters" button is clicked
-    
-    // Button events
-    document.getElementById('applyFilters').addEventListener('click', function() {
+    // Automatic filtering on filter change
+    document.getElementById('countryFilter').addEventListener('change', function() {
         applyFilters();
     });
+    document.getElementById('indicatorFilter').addEventListener('change', function() {
+        applyFilters();
+    });
+    document.getElementById('yearFilter').addEventListener('change', function() {
+        applyFilters();
+    });
+    
+    // Clear filters button
     document.getElementById('clearFilters').addEventListener('click', function() {
         document.getElementById('countryFilter').value = '';
         document.getElementById('indicatorFilter').value = '';
